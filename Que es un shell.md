@@ -1,10 +1,10 @@
 # Shell
 
-Un shell es un interprete que usamos en la terminal para interactuar con la computadora. Si usamos windows, seguro escuchamos alguna vez cmd o powershell, estos son dos ejemplos de shells. En principio trabajamos con uno de 3 shells
+Un shell es un interprete (o sea, que tecnicamente estamos usando un lenguage de programacion) que usamos en la terminal para interactuar con la computadora. Si usamos windows, seguro escuchamos alguna vez cmd o powershell, estos son dos ejemplos de shells. En principio, nosotros vamos a trabajar con bash o con zsh (son muy parecidos)
 
 ## Bash (y POSIX)
 
-Este es el shell mas viejo de todos, en principio no es super costumizable, asi que no lo vamos a usar. Pero esta en cualquier linux/unix/macOS que usemos, asi que esta bueno mencionarlo
+Este es el shell mas viejo de todos. Esta en cualquier linux/unix/macOS que usemos
 
 La sintaxis que usa es compatible con POSIX. Esto significa que cumple ciertos estandares. Por ejemplo:
 
