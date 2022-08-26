@@ -74,15 +74,15 @@ public class AVL<T extends Comparable<T>> implements BST<T> {
     y.right = z;
     z.left = y_r;
 
-    z.height = 1 + max(z.left.height, z.right.height);
+    z.height = 1 + max(height(z.left), height(z.right));
     y.height = 1 + max(y.left.height, y.right.height);
 
     return y;
 
   }
 
-  private int balanceFactor(AVL<T>.Node node) {
-    return node.right.height - node.left.height;
+  private int balanceFactor(Node node) {
+    return height(node.right) - height(node.left);
   }
 
   private int height(Node node) {
