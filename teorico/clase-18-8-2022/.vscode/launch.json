@@ -1,0 +1,12 @@
+{
+   "configurations": [
+      {
+         "name": "Launch",
+         "preLaunchTask":"C/C++: clang++ build active file" ,
+         "type": "lldb",
+         "request": "launch",
+         "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+         "stdio" : ["input.txt", "output.txt"] // si se deja en null, hace todo por la terminal
+      }
+   ]
+}
