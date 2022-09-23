@@ -16,7 +16,9 @@ public int[][] getAdjMatrix();
 que nos devuelve una **copia** de la matriz de adyacencia. Para la implementacion de listas de adyacencia, arman una nueva matriz a partir de las listas de adyacencias.
 
 # Ejercicio 2
-Dado un grafo **no** dirigido y **no** ponderado, encontrar los caminos mas cortos
+Dado un grafo **no** dirigido y ponderado, encontrar los caminos mas cortos
+
+Si **no** existe el camino, devolver `-1`
 
 ## a
 Resolverlo con algoritmo de Dijkstra
