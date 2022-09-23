@@ -13,7 +13,7 @@ Formato de entrada:
 .
 .
 .
-<cantidad de aristas para responser>
+<cantidad de aristas para responder>
 <desde> <hasta>
 <desde> <hasta>
 .
@@ -72,7 +72,7 @@ Formato entrada:
 .
 .
 .
-<cantidad de aristas para responser>
+<cantidad de aristas para responder>
 <desde> <hasta>
 <desde> <hasta>
 .
